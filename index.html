@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="ahorcado.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="titulo">Juego del ahorcado</h1>
+      <h1 id="msg-final"></h1>
+      <h3 id="acierto"></h3>
+      <div class="flex-row no-wrap">
+        <h2 class="palabra" id="palabra"></h2>
+        <picture>
+          <img src="img/secuencia01.jpg" alt="" id="image1" class="fade-out">
+          <img src="img/secuencia02.jpg" alt="" id="image2" class="fade-out">
+          <img src="img/secuencia03.jpg" alt="" id="image3" class="fade-out">
+          <img src="img/secuencia04.jpg" alt="" id="image4" class="fade-out">
+          <img src="img/secuencia05.jpg" alt="" id="image5" class="fade-out">
+          <img src="img/secuencia06.jpg" alt="" id="image6" class="fade-out">
+          <img src="img/secuencia07.jpg" alt="" id="image7" class="fade-out">
+        </picture>
+      </div>
+      <div class="flex-row" id="turnos">
+        <div class="col">
+          <h3>Intentos restantes: <span id="intentos">6</span></h3>
+        </div>
+        <div class="col">
+          <button onclick="reiniciarJuego()" id="reset">Elegir otra palabra</button>
+          <button onclick="pista()" id="pista">Dame una pista!</button>
+          <span id="hueco-pista"></span>
+        </div>
+      </div>
+      <div class="flex-row">
+        <div class="col">
+          <div class="flex-row" id="abcdario"></div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <script src="ahorcado.js"></script>
+  </body>
+</html>
