@@ -1,0 +1,10 @@
+.hola-mundo {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #0056b3;
+}

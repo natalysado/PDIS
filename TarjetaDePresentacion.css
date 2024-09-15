@@ -1,0 +1,36 @@
+.tarjeta {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: #fff;
+}
+
+.tarjeta-imagen {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.tarjeta-contenido {
+    padding: 20px;
+    flex: 1;
+}
+
+.tarjeta-nombre {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.tarjeta-profesion {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #666;
+}
